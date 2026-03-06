@@ -100,9 +100,9 @@ Each page features consistent navigation, footer, and branding elements.
   <Step title="Clone the repository">
     Get the project files from GitHub
 
-    ```python
-    git clone https://github.com/MazinguerZZ/Proyecto-Pagina-Web.git
-    ```
+```python
+git clone https://github.com/MazinguerZZ/Proyecto-Pagina-Web.git
+```
   </Step>
 
   <Step title="Navigate to the project directory">
