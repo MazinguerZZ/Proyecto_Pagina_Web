@@ -99,7 +99,8 @@ Cada página presenta navegación, pie de página y elementos de marca consisten
 
 ```bash
 git clone https://github.com/MazinguerZZ/Proyecto-Pagina-Web.git
-  
+```
+
   <Step title="Ir al directorio del proyecto">
     Navega a la ruta del proyecto
 
