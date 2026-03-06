@@ -1,7 +1,3 @@
-> ## Índice de Documentación
-> Obtén el índice completo de la documentación en: https://mazinguerzz-proyecto-pagina-web.mintlify.app/llms.txt  
-> Usa este archivo para descubrir todas las páginas disponibles antes de explorar más.
-
 # Introducción
 
 > Bienvenido a Coffee Express - Un sitio web moderno para una cafetería con funciones interactivas y un diseño atractivo
