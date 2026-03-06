@@ -1,139 +1,137 @@
-> ## Documentation Index
-> Fetch the complete documentation index at: https://mazinguerzz-proyecto-pagina-web.mintlify.app/llms.txt
-> Use this file to discover all available pages before exploring further.
+> ## Índice de Documentación
+> Obtén el índice completo de la documentación en: https://mazinguerzz-proyecto-pagina-web.mintlify.app/llms.txt  
+> Usa este archivo para descubrir todas las páginas disponibles antes de explorar más.
 
-# Introduction
+# Introducción
 
-> Welcome to Coffee Express - A modern coffee shop website with interactive features and beautiful design
+> Bienvenido a Coffee Express - Un sitio web moderno para una cafetería con funciones interactivas y un diseño atractivo
 
-# Welcome to Coffee Express
+# Bienvenido a Coffee Express
 
-Coffee Express is a modern, fully-featured coffee shop website built with HTML, CSS, and vanilla JavaScript. Designed for a café in Madrid, this project showcases best practices in web development with a focus on user experience, animations, and responsive design.
+Coffee Express es un sitio web moderno y completamente funcional para una cafetería, desarrollado con HTML, CSS y JavaScript puro (vanilla). Diseñado para una cafetería en Madrid, este proyecto muestra buenas prácticas de desarrollo web con un enfoque en la experiencia del usuario, las animaciones y el diseño responsive.
 
 <Note>
-  This documentation covers the complete website structure, components, styling system, and JavaScript functionality.
+Esta documentación cubre la estructura completa del sitio web, sus componentes, el sistema de estilos y la funcionalidad en JavaScript.
 </Note>
 
-## Key Features
+## Características principales
 
 <CardGroup cols={2}>
-  <Card title="Interactive Carousel" icon="images" href="/components/carousel">
-    Navigate through coffee images with smooth transitions and arrow controls
+  <Card title="Carrusel interactivo" icon="images" href="/components/carousel">
+    Navega a través de imágenes de café con transiciones suaves y controles con flechas
   </Card>
 
-  <Card title="Animated Hero Sections" icon="wand-magic-sparkles" href="/styling/animations">
-    Eye-catching hero sections with Typed.js effects and SVG wave dividers
+  <Card title="Secciones Hero animadas" icon="wand-magic-sparkles" href="/styling/animations">
+    Secciones hero llamativas con efectos de Typed.js y divisores de ondas SVG
   </Card>
 
-  <Card title="Coffee Menu Gallery" icon="mug-hot" href="/pages/coffee-menu">
-    Showcase hot and cold beverages with an interactive image gallery
+  <Card title="Galería del menú de café" icon="mug-hot" href="/pages/coffee-menu">
+    Muestra bebidas calientes y frías con una galería de imágenes interactiva
   </Card>
 
-  <Card title="Contact Form" icon="envelope" href="/pages/contact">
-    Collect customer inquiries with form validation and user feedback
+  <Card title="Formulario de contacto" icon="envelope" href="/pages/contact">
+    Recoge consultas de clientes con validación de formularios y retroalimentación al usuario
   </Card>
 
-  <Card title="Customer Reviews" icon="star" href="/pages/home">
-    Display testimonials with profile images and animated cards
+  <Card title="Reseñas de clientes" icon="star" href="/pages/home">
+    Muestra testimonios con imágenes de perfil y tarjetas animadas
   </Card>
 
-  <Card title="Responsive Navigation" icon="bars" href="/components/navigation">
-    Sticky navigation menu with smooth scrolling to page sections
+  <Card title="Navegación responsive" icon="bars" href="/components/navigation">
+    Menú de navegación fijo con desplazamiento suave hacia las secciones de la página
   </Card>
 </CardGroup>
 
-## Project Overview
+## Descripción general del proyecto
 
-Coffee Express demonstrates modern web development techniques including:
+Coffee Express demuestra técnicas modernas de desarrollo web, incluyendo:
 
-* **Responsive Design**: Mobile-first approach with flexible layouts
-* **CSS Custom Properties**: Centralized theming with CSS variables for colors and fonts
-* **Animation Integration**: Smooth entrance animations using Animate.css library
-* **Interactive JavaScript**: Carousel controls, form validation, and image interactions
-* **SVG Graphics**: Custom wave dividers for visual interest
-* **Third-party Libraries**: Integration of Typed.js for dynamic text effects
+* **Diseño responsive**: Enfoque mobile-first con layouts flexibles
+* **Propiedades personalizadas de CSS**: Sistema de temas centralizado con variables CSS para colores y fuentes
+* **Integración de animaciones**: Animaciones de entrada suaves usando la librería Animate.css
+* **JavaScript interactivo**: Controles de carrusel, validación de formularios e interacciones con imágenes
+* **Gráficos SVG**: Divisores de ondas personalizados para mayor atractivo visual
+* **Librerías externas**: Integración de Typed.js para efectos de texto dinámico
 
-## Website Structure
+## Estructura del sitio web
 
-The website consists of four main pages:
+El sitio web consta de cuatro páginas principales:
 
-1. **Home** (`index.html`) - Landing page with hero section, image carousel, and customer reviews
-2. **About Us** (`About-US.html`) - Company story and employee profile carousel
-3. **Coffee Menu** (`OurCoffees.html`) - Gallery of hot and cold coffee beverages
-4. **Contact** (`Contactanos.html`) - Contact form for customer inquiries
+1. **Home** (`index.html`) - Página principal con sección hero, carrusel de imágenes y reseñas de clientes  
+2. **About Us** (`About-US.html`) - Historia de la empresa y carrusel de perfiles de empleados  
+3. **Coffee Menu** (`OurCoffees.html`) - Galería de bebidas de café calientes y frías  
+4. **Contact** (`Contactanos.html`) - Formulario de contacto para consultas de clientes  
 
-Each page features consistent navigation, footer, and branding elements.
+Cada página presenta navegación, pie de página y elementos de marca consistentes.
 
-## Technology Stack
+## Stack tecnológico
 
 <Accordion title="HTML5">
-  Semantic markup with proper document structure, meta tags, and accessibility attributes
+  Marcado semántico con estructura adecuada del documento, meta etiquetas y atributos de accesibilidad
 </Accordion>
 
 <Accordion title="CSS3">
-  Modern CSS features including:
+  Características modernas de CSS incluyendo:
 
-  * CSS Custom Properties (variables)
-  * Flexbox and Grid layouts
-  * Smooth animations and transitions
-  * Responsive design with media queries
+  * Propiedades personalizadas de CSS (variables)
+  * Layouts con Flexbox y Grid
+  * Animaciones y transiciones suaves
+  * Diseño responsive con media queries
 </Accordion>
 
-<Accordion title="Vanilla JavaScript">
-  Client-side functionality:
+<Accordion title="JavaScript Vanilla">
+  Funcionalidad del lado del cliente:
 
-  * Image carousel navigation
-  * Form validation
-  * Interactive image click handlers
-  * DOM manipulation
+  * Navegación del carrusel de imágenes
+  * Validación de formularios
+  * Controladores de clic en imágenes
+  * Manipulación del DOM
 </Accordion>
 
-<Accordion title="External Libraries">
-  * **Typed.js**: Typing animation effects
-  * **Animate.css**: Pre-built CSS animations
-  * Custom fonts from Google Fonts (Caveat, Poppins)
+<Accordion title="Librerías externas">
+  * **Typed.js**: Efectos de animación de escritura
+  * **Animate.css**: Animaciones CSS preconstruidas
+  * Fuentes personalizadas desde Google Fonts (Caveat, Poppins)
 </Accordion>
 
-## Quick Start
+## Inicio rápido
 
 <Steps>
-  <Step title="Clone the repository">
-    Get the project files from GitHub
+  <Step title="Clonar el repositorio">
+    Obtén los archivos del proyecto desde GitHub
 
 ```bash
 git clone https://github.com/MazinguerZZ/Proyecto-Pagina-Web.git
-```
-  </Step>
   
-  <Step title="Navigate to the project directory">
-    Vamos a la ruta del proyecto
+  <Step title="Ir al directorio del proyecto">
+    Navega a la ruta del proyecto
 
 ```bash
 cd Proyecto-Pagina-Web/"Proyecto Interfaz"
 ```
   </Step>
 
-  <Step title="Open in browser">
-    Open 'index.html' in your web browser to view the site
+  <Step title="Abrir en el navegador">
+    Abre 'index.html' en tu navegador web para ver el sitio
 
 ```bash
-# Using a simple HTTP server (recommended)
+# Usando un servidor HTTP simple (recomendado)
 python -m http.server 8000
-# Then visit http://localhost:8000
+# Luego visita http://localhost:8000
 ```
   </Step>
 </Steps>
 
-## Documentation Guide
+## Guía de la documentación
 
-This documentation is organized into five sections:
+Esta documentación está organizada en cinco secciones principales:
 
-* **Getting Started**: Setup instructions and quickstart guide
-* **Pages**: Detailed breakdown of each website page and its features
-* **Components**: Reusable UI components like navigation, carousel, and footer
-* **Styling**: CSS architecture, color system, and animations
-* **JavaScript**: Interactive functionality and client-side logic
+* **Primeros pasos (Getting Started)**: Instrucciones de configuración y guía de inicio rápido del proyecto.
+* **Páginas (Pages)**: Explicación detallada de cada página del sitio web y sus funcionalidades.
+* **Componentes (Components)**: Componentes reutilizables de la interfaz como la navegación, el carrusel y el footer.
+* **Estilos (Styling)**: Arquitectura CSS, sistema de colores, tipografías y animaciones.
+* **JavaScript**: Funcionalidad interactiva y lógica del lado del cliente.
 
-<Card title="Ready to get started?" icon="rocket" href="/quickstart">
-  Jump into the quickstart guide to set up the project
+<Card title="¿Listo para empezar?" icon="rocket" href="/quickstart">
+  Accede a la guía de inicio rápido para configurar el proyecto y comenzar a usarlo.
 </Card>
