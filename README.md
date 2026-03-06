@@ -100,25 +100,25 @@ Each page features consistent navigation, footer, and branding elements.
   <Step title="Clone the repository">
     Get the project files from GitHub
 
-```python
+```bash
 git clone https://github.com/MazinguerZZ/Proyecto-Pagina-Web.git
 ```
   </Step>
 
   <Step title="Navigate to the project directory">
-    ```bash
-    cd Proyecto-Pagina-Web/"Proyecto Interfaz"
-    ```
+```bash
+cd Proyecto-Pagina-Web/"Proyecto Interfaz"
+```
   </Step>
 
   <Step title="Open in browser">
     Open `index.html` in your web browser to view the site
 
-    ```bash
-    # Using a simple HTTP server (recommended)
-    python -m http.server 8000
-    # Then visit http://localhost:8000
-    ```
+```bash
+# Using a simple HTTP server (recommended)
+python -m http.server 8000
+# Then visit http://localhost:8000
+```
   </Step>
 </Steps>
 
