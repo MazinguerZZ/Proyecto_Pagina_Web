@@ -136,3 +136,6 @@ Esta documentación está organizada en cinco secciones principales:
 <Card title="¿Listo para empezar?" icon="rocket" href="/quickstart">
   Accede a la guía de inicio rápido para configurar el proyecto y comenzar a usarlo.
 </Card>
+
+
+# Autores: Adrián Álvarez Bombín, Alejandro Medina Lafunete
