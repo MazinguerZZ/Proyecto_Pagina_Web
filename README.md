@@ -138,4 +138,6 @@ Esta documentación está organizada en cinco secciones principales:
 </Card></br>
 
 
+## Contribuciones
+
 > Autores: Adrián Álvarez Bombín, Alejandro Medina Lafunete
